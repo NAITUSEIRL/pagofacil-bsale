@@ -18,11 +18,8 @@
   },
   "homepage": "https://github.com/NAITUSEIRL/pagofacil-bsale#readme",
   "devDependencies": {
-    "chai": "^4.1.2",
-    "mocha": "^5.1.1",
+    "@types/node": "^8.0.0",
     "typescript": "^2.8.3"
   },
-  "dependencies": {
-    "pluralize": "^7.0.0"
-  }
+  "dependencies": {}
 }
