@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 class DocumentSII {
     constructor() {
-        this.documentTypeId = 15; //Id del tipo de documento que indicara si es factura, boleta, nota de venta etc. (Integer).
+        this.codeSii = 34; //Codigo tributario del documento. (Integer).
         this.declareSii = 1; // Si se desea declarar el documento al Servicio de impuestos internos se envía 1, en caso contrario un 0 (Boolean).
         this.emissionDate = 0; //Fecha de emisión del documento, se envía en formato GMT (Integer).
         this.expirationDate = 0; //Fecha vencimiento del documento, se envía en formato GMT (Integer).

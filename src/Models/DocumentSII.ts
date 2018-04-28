@@ -3,7 +3,7 @@ import { Detail } from "./Detail";
 import { References } from "./References";
 
 export class DocumentSII {
-    documentTypeId: number = 15;//Id del tipo de documento que indicara si es factura, boleta, nota de venta etc. (Integer).
+    codeSii: number = 34;//Codigo tributario del documento. (Integer).
     declareSii: number = 1;// Si se desea declarar el documento al Servicio de impuestos internos se envía 1, en caso contrario un 0 (Boolean).
     emissionDate: number = 0; //Fecha de emisión del documento, se envía en formato GMT (Integer).
     expirationDate: number = 0; //Fecha vencimiento del documento, se envía en formato GMT (Integer).

@@ -2,7 +2,7 @@ import { Client } from "./Client";
 import { Detail } from "./Detail";
 import { References } from "./References";
 export declare class DocumentSII {
-    documentTypeId: number;
+    codeSii: number;
     declareSii: number;
     emissionDate: number;
     expirationDate: number;
