@@ -9,6 +9,9 @@ class DocumentSII {
         this.client = null;
         this.details = [];
         this.references = [];
+        //Se agregan por defecto las fechas en caso de no venir.
+        this.emissionDate = (new Date).getTime();
+        this.expirationDate = (new Date).getTime();
     }
 }
 exports.DocumentSII = DocumentSII;
