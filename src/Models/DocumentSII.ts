@@ -12,6 +12,8 @@ export class DocumentSII {
     references: References[] = []; 
 
     constructor() {
-
+        //Se agregan por defecto las fechas en caso de no venir.
+        this.emissionDate = (new Date).getTime();
+        this.expirationDate = (new Date).getTime();
     }
 }
