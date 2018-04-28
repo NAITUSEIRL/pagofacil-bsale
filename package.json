@@ -1,0 +1,19 @@
+{
+  "name": "pagofacil-bsale",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cristian Tala Sánchez <yomismo@cristiantala.cl> (https://www.cristiantala.cl)",
+  "license": "ISC",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NAITUSEIRL/pagofacil-bsale.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NAITUSEIRL/pagofacil-bsale/issues"
+  },
+  "homepage": "https://github.com/NAITUSEIRL/pagofacil-bsale#readme"
+}
